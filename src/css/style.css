@@ -1,0 +1,156 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/*CABECALHO*/
+
+header {
+    background: rgb(161, 255, 53);
+    width: 1440px;
+    height: 150px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+header .title {
+    background: #5b8b36;
+    width: 500px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+header .menu {
+    background: #7e61ff;
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    gap: 30px;
+    margin: 0 auto;
+}
+
+.menu .autor {
+    background: #bfa20f;
+    width: 150px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+}
+
+.menu ul {
+    background: #ff4141;
+    width: 300px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 0 5px 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border-left: 4px solid #000;
+}
+
+.menu li {
+    background: #bfa20f;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+/*CONTEUDO DOS CARDS*/
+
+.main {
+    background: orange;
+    width: 1440px;
+    height: calc(100vh - 150px);
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cards {
+    background: #4d987d;
+    width: 960px;
+    height: 480px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+/*CARACTERÍSTICAS DOS CARDS*/
+
+span.card {
+    background: rgb(255, 255, 255);
+    width: 196px;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    text-align: center;
+    border-radius: 5px;
+}
+
+span img {
+    border-radius: 5px;
+}
+
+div.atributes {
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 196px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.card-atributes {
+    background: #77a896;
+    width: 176px;
+    height: 80px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border-radius: 5px;
+}
+
+/*BOTAO VER MAIS - AINDA DENTRO DA .MAIN*/
+
+.seemore {
+    background-color: rgb(170, 114, 221);
+    width: 150px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html {
+    background: #6c6c6c;
+    font-family: "Sedan", sans-serif;
+}
+
+ul {
+    list-style: none;
+}
